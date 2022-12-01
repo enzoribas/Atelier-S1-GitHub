@@ -1,0 +1,194 @@
+/* body{
+    background-image: url(../Images/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+} */
+#a1{
+    position: absolute;
+    width: 600px;
+    height: 550px;
+    left: 650px;
+    top: 400px;
+
+    background: #000000;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 45px;
+    opacity: 85%;
+    
+}
+nav{
+    position: fixed;
+    width: 1920px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    
+    background: #3E4245;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    color:  white;
+    opacity: 85%;
+}
+
+#accueil{
+    position: absolute;
+    left: 910px;
+    top: 8px;
+    text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    
+}
+
+#prenom{
+    position: absolute;
+    left: 30px;
+    top: 8px;
+    text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+}
+
+#exp{
+    position: absolute;
+    top: 8px;
+    left: 1120px;
+    text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+#comp{
+    position: absolute;
+    top: 8px;
+    left: 1400px;
+    text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+#contact{
+    position: absolute;
+    top: 8px;
+    left: 1680px;
+    text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+#texta1{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #ffffff;
+    animation-delay: 250ms;
+}
+
+#acc{
+    position: absolute;
+    top: -330px;
+    left: 170px;
+    font-size: 80px;
+    color: white;
+    text-decoration:underline;  
+}
+
+a{
+    color: #ffffff;
+    text-decoration:none;
+}
+#sousacc{
+    position: absolute;
+    top: -150px;
+    left: 200px;
+    font-size: 40px;
+    color: white;
+}
+#accueil:before {
+	content:'';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 30px;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	transition: all 0.5s ease;
+    z-index: -2;
+}
+#accueil:hover:before {
+	width: 100%;
+} 
+#comp:before {
+	content:'';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 30px;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	transition: all 0.5s ease;
+    z-index: -2;
+} 
+#comp:hover:before {
+	width: 100%;
+}
+#exp:before {
+	content:'';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 30px;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	transition: all 0.5s ease;
+    z-index: -2;
+} 
+#exp:hover:before {
+	width: 100%;
+}
+#contact:before { 
+	content:'';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 30px;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	transition: all 0.5s ease;
+    z-index: -2;
+}
+#contact:hover:before {
+     width: 100%;
+ 
+} 
+/* animation */
+article {
+    animation: transitionIn 1s;
+}
+nav {
+    animation: transitionIn 1s;
+}
+
+
+@keyframes transitionIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }  
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+
+ 
+
